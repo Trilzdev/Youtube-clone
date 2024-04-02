@@ -7,7 +7,7 @@ const DynamicIcons = ({ iconComponent }) => {
     return <IconComponent className="text-2xl text-neutral-700 dark:text-neutral-400" />
 }
 const SideBar = ({ setVideos, setSearchTerm }) => {
-    const apiKey = 'AIzaSyC3IZ_L2P9Z6c80o-yNU3vyI_lJQyXm9Tk';
+    const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY;
     function getTimeDescription(publishTime) {
         const currentTime = new Date();
         const publishedAt = new Date(publishTime);

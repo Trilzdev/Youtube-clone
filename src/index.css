@@ -14,6 +14,3 @@
     background: #474747; /* Color of the thumb */
     border-radius: 5px; /* Rounded corners */
 }
-
-::-webkit-scrollbar-thumb:hover {
-}
